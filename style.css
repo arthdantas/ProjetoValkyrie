@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    background-color: #000000;
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color :white;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.sections a{
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.valquiria{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 75vh;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.nomeAgente{
+    text-align: center;
+}
+.info{
+    margin: top 5px;
+}
+.biografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.principal{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding-left: 310px;
+    gap: 80px;
+    width:1000px;
+    height: 200px;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+    height: 100px;
+    background-color:rgb(190, 190, 192);
+    border-radius: 10px;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.textoBio{
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.title_armas{
+    display: flex;
+    justify-content: center;
+}
+.loadout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+.vertical-line {
+    width: 1px; 
+    height: 200px; 
+    background-color: #ffffff; 
+    margin: 0 10px; 
+}
+
+.armas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.mpx{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.spas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.deagle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.C4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.grenade{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.title_hab{
+    font-family: 'Oswald', sans-ser;
+}
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.detalhes_camera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 70px;
+    padding: 20px;
+    gap: 20px;
+}
+.text-hab{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 80px;
+}
+.habilidade img{
+    width: 500px;
+    height:300px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    gap: 40px;
+    
+}
+.video h1{
+    font-family: 'Oswald', sans-serif;
+}
